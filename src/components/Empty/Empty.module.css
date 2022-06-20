@@ -1,0 +1,30 @@
+.listEmpty{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 64px 64px;
+    gap: 1rem;
+
+    border-top: 1px solid var(--gray-400);
+    border-radius: .5rem;
+
+    align-self: stretch;
+    flex-grow: 0;
+}
+.listEmpty Image{
+    width: 56px;
+    height: 56px;
+    flex: none;
+}
+
+.listEmpty h1{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 80%;    
+
+    text-align: center;
+
+    color: var(--gray-300)
+}
