@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Header from '../components/Header'
-import List from '../components/List'
 import Task from '../components/Task'
 
 
